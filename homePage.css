@@ -1,0 +1,187 @@
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+select {
+    border: transparent 0 solid;
+    background-color: transparent 0;
+    font-size: 19px;
+}
+
+select:hover {
+    color:gray;
+    cursor: pointer;
+}
+
+button {
+    border: transparent 0 solid;
+    background: transparent 0;
+    font-size: 19px;
+}
+
+button:hover {
+    color:gray;
+    cursor: pointer;
+}
+
+h3 { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    color: gray;
+}
+
+.entireTop {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.topNavBar {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between ;
+    background-color: rgb(53, 63, 63);
+    color:white;
+    text-decoration: none;
+    font: white ;
+}
+
+.searchBar {
+    border: transparent 0;
+    background-color: rgb(53, 63, 63);
+    color:white;
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+.login {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color:white;
+}
+
+.color {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.color:hover {
+    color:gray;
+    cursor: pointer;
+}
+
+.colaKicksHomePageButton { 
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.options {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: transparent 0 solid;
+    background-color: white;
+    width: 99vw;
+}
+
+.allPics {
+    width: 80vw;
+}
+
+.topPics {
+    margin-top: 237px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.picOne {
+    width: 50%;
+}
+
+.second {
+    width: 90%;
+}
+
+.topBottom {
+    margin-top: -0rem;
+}
+
+.picBoxThree {
+    display: flex;
+    flex-direction:  row;
+    justify-content: center;
+    width: 98vw;
+}
+
+.boxNewArrivals {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.empty {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: solid 2px rgb(163, 157, 99); 
+    width:8.75%;
+    align-self: center;
+    margin-bottom: 40px;
+}
+
+.newArrivals {
+    display: flex;
+    flex-direction:  row;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    color: rgb(82, 82, 82) ;
+}
+
+.newShoeInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.newShoePic {
+    display: flex;
+    flex-direction: row;
+}
+
+.size {
+    display: flex;
+    flex-direction: row;
+    border: 1px rgb(164, 161, 161) solid;
+    margin-left: 7rem;
+    color: gray;
+}
+
+.augusta {
+    display: flex;
+    flex-direction:  row;
+    justify-content: center;
+    margin-top: 8rem;
+    font-size: 2.4rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.bottomPic {
+    width: 50%;
+}
+
+.bottomPagePic {
+    width: 97vw;
+}
+
